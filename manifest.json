@@ -1,0 +1,27 @@
+{
+  "name": "DhEksi",
+  "description": "Donanimhaber Eksi Butonu",
+  "version": "1.0",
+  "author": "Cem Çevik",
+  "browser_action":
+{ 
+ "default_icon":"logo-48.png"
+},
+"icons": {
+"16":"logo-16.png",
+"48":"logo-48.png",
+"128":"logo-128.png"
+},
+  "permissions": ["http://*.donanimhaber.com/*","http://"server ip"/:3000/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://*.donanimhaber.com/*"],
+      "js": ["jquery.js","script.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["jquery.js","script.js"]
+  },
+  "manifest_version": 2
+}
+
