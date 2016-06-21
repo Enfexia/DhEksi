@@ -7,10 +7,10 @@ Kurulum
 
 Uygulamanın Paketlenmiş halini 
 
-'''bash
+```bash
 https://www.dropbox.com/s/zsfulh6nldqwr4p/DhEksi.crx?dl=0
-'''
-indirebilirsiniz.
+```
+Adresinden İndirebilirsiniz.
 
 İndirdikten sonra Uzantılar Sayfasına(chrome://extensions/) giriniz, 
 
